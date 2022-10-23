@@ -29,11 +29,15 @@
             <img src="https://scontent.flpb3-1.fna.fbcdn.net/v/t1.6435-9/68804918_2333649600054362_3071717759210487808_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-3K6kKL6dlMAX-jmwM4&_nc_ht=scontent.flpb3-1.fna&oh=00_AT9U1gjDIBO5sD03YsjBSPIHFBWml_kUpBe5sN8x9PQN3g&oe=637B4091" alt="perfilphoto">
         </div>
     </section>
-    <form action="">
+    <form action="" autocomplete="off">
         <h1>Gracias por visitar mi perfil web!!!</h1>
         <p>Si gustas, y te lo agradecería mucho, puedes responder esta pregunta para colaborar en mi crecimiento personal</p>
-        <label for="name">¿Cuál es tu primera impresión al conocerme a través de este perfil web?</label>
-        <input type="text" id="name">
+        <label for="name">¿Cuál es tu primera impresión al conocerme a través de este perfil web?</label><br><br>
+        <input type="text" id="name" spellcheck="true" placeholder="Sé honest@ y específic@" size="60">
+        <p>Por ultimo califica tu experiencia de navegación en esta página web</p>
+        <label for="qualification">Calificación:</label>
+        <input type="range" id="qualification" value="0" max="10" min="0" oninput="this.nextElementSibling.value = this.value">
+        <output>0</output>
     </form>
     <footer>
         <h1>Enlaces:</h1>
