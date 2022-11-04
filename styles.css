@@ -1,0 +1,29 @@
+header h1{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: solid black;
+    /*background: black;*/
+    font: larger;
+    width: 315px;
+    height: auto;
+    text-align: center;
+}
+li#izq{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 240px;
+}
+li#der{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 285px;
+}
