@@ -1,29 +1,35 @@
-header h1{
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    border: solid black;
-    /*background: black;*/
-    font: larger;
-    width: 315px;
-    height: auto;
-    text-align: center;
+header{
+    /*text-align: center;*/
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  
 }
+
+header h1{
+    grid-column: 2 / 3;
+    color: black;
+    font: larger;
+    border: 2px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
 li#izq{
     font-size: 40px;
-    display: block;
+    display: grid;
     text-align: center;
     background: black;
     color: white;
     width: 240px;
+    margin: 20px;
 }
 li#der{
     font-size: 40px;
-    display: block;
+    display: grid;
     text-align: center;
     background: black;
     color: white;
     width: 285px;
+    margin: 20px;
 }
