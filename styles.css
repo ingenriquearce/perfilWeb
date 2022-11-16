@@ -15,21 +15,41 @@ header h1{
     margin: 40px;
 }
 
-li#izq{
-    font-size: 40px;
+nav{
     display: grid;
-    text-align: center;
-    background: black;
-    color: white;
-    width: 240px;
     margin: 20px;
 }
-li#der{
-    font-size: 40px;
+    li#izq{
+        font-size: 40px;
+        display: grid;
+        text-align: center;
+        background: black;
+        color: white;
+        width: 240px;
+    }
+    li#der{
+        font-size: 40px;
+        display: grid;
+        text-align: center;
+        background: black;
+        color: white;
+        width: 285px;
+    }
+
+section{
     display: grid;
-    text-align: center;
-    background: black;
-    color: white;
-    width: 285px;
+    margin: 20px;
+}
+    section div:nth-child(2){
+        text-align: center;
+        margin: 20px;
+    }
+
+form{
+    margin: 20px;
+}
+
+footer{
+    display: grid;
     margin: 20px;
 }
