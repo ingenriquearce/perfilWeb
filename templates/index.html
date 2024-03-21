@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrique Arce</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
             </ul>
         </div>
         <div>
-            <img src="./Foto Carnet.jpg" alt="perfilphoto">
+            <img src="static/images/fotoCVFormal.png" alt="perfilphoto" width="200">
         </div>
     </section>
     <form action="" autocomplete="off">
