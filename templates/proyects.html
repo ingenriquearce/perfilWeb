@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos Realizados</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Proyectos Realizados</h1>
+    </header>
+    <nav id="proyects">
+        <ul>
+            <li>
+                <h2>Proyecto 1</h2>
+                <p>Descripción del Proyecto 1</p>
+                <button onclick="abrirProyecto('proyecto1')">Abrir Proyecto</button>
+            </li>
+            <li>
+                <h2>Proyecto 2</h2>
+                <p>Descripción del Proyecto 2</p>
+                <button onclick="abrirProyecto('proyecto2')">Abrir Proyecto</button>
+            </li>
+            <!-- Agrega más proyectos según sea necesario -->
+        </ul>
+    </nav>
+
+    <footer>
+        <a href="/">Volver al Perfil</a>
+    </footer>
+
+    <script>
+        // Función para abrir el proyecto seleccionado
+        function abrirProyecto(nombreProyecto) {
+            // Redirige a la página del proyecto específico
+            window.location.href = "/proyecto/" + nombreProyecto;
+        }
+    </script>
+</body>
+</html>
